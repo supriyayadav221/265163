@@ -1,7 +1,7 @@
 import  random
 import string
-from Implementation.wordsFile import words
-from Implementation.hangmanVisual import chancesVisualDictionary
+from Implementation.src.wordsFile import words
+from Implementation.src.hangmanVisual import chancesVisualDictionary
 #Hangman game of words, to guess letters in 7 chances
 def getValidWord(words):
     word=random.choice(words) #randomly chooses any word from list
